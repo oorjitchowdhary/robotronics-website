@@ -661,9 +661,12 @@ margin: auto;
   display: block;
   font-size: 18px;
 }
-
+#creation-icon {
+  padding-bottom: 12px !important;
+}
 #creation-d {
   font-size: 22px !important;
+  padding-bottom: 3px !important;
 }
 
 #logomania {
@@ -676,24 +679,34 @@ margin: auto;
 }
 
 .wrimagecard:hover {
-  background: #28a745;
+  background: #16e16e;
   color: #000;
 }
 
 .wrimagecard:hover .fa {
-  background: #28a745;
+  background: #16e16e;
   color: #000;
 }
 
+.wrimagecard:hover .material-icons {
+  background: #16e16e;
+  color: #000;
+}
+.material-icons {
+  position: relative;
+  font-size: 70px;
+  color: #16e16e;
+}
+
 .wrimagecard:hover .wrimagecard-topimage_title {
-  background: #28a745;
+  background: #16e16e;
   color: #000;
 }
 
 .wrimagecard .fa{
 	position: relative;
     font-size: 70px;
-    color: #28a745;
+    color: #16e16e;
 }
 
 .wrimagecard-topimage_header{

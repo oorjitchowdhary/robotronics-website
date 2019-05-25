@@ -436,7 +436,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Sections Common
 --------------------------------*/
 .section-title {
-  font-size: 32px;
+  font-size: 36px;
   color: #111;
   text-transform: uppercase;
   text-align: center;
@@ -660,6 +660,72 @@ margin: auto;
   opacity: 0.5;
   display: block;
   font-size: 18px;
+}
+
+#creation-d {
+  font-size: 22px !important;
+}
+
+#logomania {
+  font-size: 30px !important;
+}
+.wrimagecard {	
+  position: relative;
+  background: #000;
+  border-radius: 5px;
+}
+
+.wrimagecard:hover {
+  background: #28a745;
+  color: #000;
+}
+
+.wrimagecard:hover .fa {
+  background: #28a745;
+  color: #000;
+}
+
+.wrimagecard:hover .wrimagecard-topimage_title {
+  background: #28a745;
+  color: #000;
+}
+
+.wrimagecard .fa{
+	position: relative;
+    font-size: 80px;
+    color: #28a745;
+}
+
+.wrimagecard-topimage_header{
+  padding: 25px;
+  padding-bottom: 9px !important;
+  text-align: center;
+}
+
+.wrimagecard-topimage a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.wrimagecard-topimage_title {
+    padding: 10px 24px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+h5 {
+  font-size: 18px;
+  color: #666;
+}
+.wrimagecard-topimage_title h4 {
+  font-size: 34px !important;
+
+}
+.wrimagecard-topimage a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color 0.3s ease;
 }
 
 #portfolio .portfolio-item .details h4 {

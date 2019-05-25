@@ -575,9 +575,23 @@ margin: auto;
   max-width:inherit;
   height:inherit;
   margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 5px !important;
+  background: rgb(12, 12, 12);
   pointer-events:all;
+  border-radius: 10px;
 }
 
+.modal-dialog {
+  color: #16e16e;
+}
+.modal-body {
+  color: #fff;
+}
+
+.bold-modal-content {
+  color: #d3d3d3;
+}
 /* Subscribe Section
 --------------------------------*/
 #subscribe {

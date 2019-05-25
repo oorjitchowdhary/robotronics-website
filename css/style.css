@@ -692,7 +692,7 @@ margin: auto;
 
 .wrimagecard .fa{
 	position: relative;
-    font-size: 80px;
+    font-size: 70px;
     color: #28a745;
 }
 
@@ -718,7 +718,7 @@ h5 {
   color: #666;
 }
 .wrimagecard-topimage_title h4 {
-  font-size: 34px !important;
+  font-size: 32px !important;
 
 }
 .wrimagecard-topimage a {

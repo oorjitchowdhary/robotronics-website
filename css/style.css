@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6px 0;
   line-height: 1;
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: -7px;
   text-transform: uppercase;
 }
 
@@ -507,7 +507,7 @@ margin: auto;
 /* Services Section
 --------------------------------*/
 #services {
-  background: #141414 fixed center center;
+  background: #181818 fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -712,6 +712,7 @@ margin: auto;
   position: relative;
   background: #000;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .wrimagecard:hover {

@@ -876,46 +876,50 @@ h5 {
   padding: 80px 0 60px 0;
 }
 
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
+.our-team {
+  margin-bottom: 12px;
 }
-
-#team .member .pic {
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
+.our-team > .pic > img{
+  width: 100%;
+  height: auto;
 }
-
-#team .member .pic img {
-  max-width: 100%;
+.our-team > .description{
+  padding:15px;
+  background:#eee;
+  line-height:24px;
 }
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
+.our-team > .description > .team-prof > h4{
+  font-size:18px;
+  color:#333;
+  text-transform:capitalize;
+  margin:0;
 }
-
-#team .member span {
-  display: block;
-  font-size: 13px;
+.our-team > .description > .team-prof > span{
+  font-size:16px;
+  color:#666666;
+  display:block;
+  margin-bottom: 5px;
 }
-
-#team .member .social {
-  margin-top: 15px;
+.our-team .social-links{
+  padding:0;
+  margin:0;
+  list-style:none;
+  font-size: 14px;
 }
-
-#team .member .social a {
-  color: #b3b3b3;
+.our-team .social-links > li{
+  display:inline-block;
+  margin-right:5px;
 }
-
-#team .member .social a:hover {
-  color: #16E16E;
+.our-team .social-links > li > a{
+  color:#b3b3b3;
 }
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
+.our-team .social-links > li > a:hover{
+  color:#16e16e;
+}
+@media only screen and (max-width: 990px){
+  .our-team{
+      margin-bottom:25px;
+  }
 }
 
 /* Contact Section

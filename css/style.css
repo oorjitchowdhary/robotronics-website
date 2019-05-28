@@ -9,7 +9,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #03c5ec;
+  color: #fff;
   outline: none;
   text-decoration: none;
 }
@@ -925,7 +925,7 @@ h5 {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  background: #eee;
   padding: 50px 0 35px 0;
 }
 

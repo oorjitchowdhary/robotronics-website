@@ -935,7 +935,7 @@ h5 {
 }
 
 #contact .info i {
-  font-size: 30px;
+  font-size: 28px;
   color: #000;
   float: left;
 }
@@ -996,11 +996,6 @@ h5 {
 
 #contact .form button[type="submit"]:hover {
   background: #25d8fc;
-}
-
-.phone {
-  padding-right: 0;
-  padding-left: 0;
 }
 
 /*--------------------------------------------------------------

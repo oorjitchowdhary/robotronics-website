@@ -935,7 +935,7 @@ h5 {
 }
 
 #contact .info i {
-  font-size: 32px;
+  font-size: 30px;
   color: #000;
   float: left;
 }
@@ -999,7 +999,6 @@ h5 {
 }
 
 .phone {
-  font-size: 14px;
   padding-right: 0;
   padding-left: 0;
 }

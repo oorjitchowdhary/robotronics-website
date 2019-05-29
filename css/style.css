@@ -498,6 +498,7 @@ margin: auto;
 #about .about-text {
   line-height: 26px;
   margin-top: 9px;
+  font-size: 18px;
 }
 
 #about .about-text:last-child {

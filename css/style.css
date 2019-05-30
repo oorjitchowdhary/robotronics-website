@@ -707,11 +707,10 @@ margin: auto;
 }
 #creation-d {
   font-size: 22px !important;
-  padding-bottom: 3px !important;
 }
 
-#logomania {
-  font-size: 30px !important;
+#l00ogomania {
+  font-size: 30px;
 }
 .wrimagecard {	
   position: relative;
@@ -753,7 +752,7 @@ margin: auto;
 
 .wrimagecard-topimage_header{
   padding: 25px;
-  padding-bottom: 9px !important;
+  padding-bottom: 9px;
   text-align: center;
 }
 
@@ -773,7 +772,7 @@ h5 {
   color: #666;
 }
 .wrimagecard-topimage_title h4 {
-  font-size: 32px !important;
+  font-size: 28px;
 
 }
 .wrimagecard-topimage a {
